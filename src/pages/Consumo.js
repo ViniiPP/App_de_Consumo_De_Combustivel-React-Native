@@ -73,7 +73,7 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
-        paddingHorizontal: 20,
+        paddingHorizontal: 10,
         backgroundColor: '#fffaf0'
       },
       box: {
@@ -95,30 +95,34 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
+        width: '100%'
       },
       title: {
         textAlign: 'center',
-        marginTop: 20,
+        marginTop: 10,
         marginBottom: 10,
         fontSize: 40,
         fontWeight: 'bold',
         color: '#9c0000',
-        fontStyle: 'italic',
-        fontFamily: 'BerkshireSwash_400Regular',
+        padding: 5,
       },
       tipo: {
         textAlign: 'center',
+        justifyContent: 'center',
+        alignItems: 'center',
         marginBottom: 10,
         fontSize: 100,
         fontStyle: 'italic',
         fontWeight: 'bold',
+        width: '100%',
       },
       consumo: {
         textAlign: 'center',
         fontSize: 24,
         color: '#9c0000',
-        marginBottom: 10,
-        textDecorationLine: 'underline'
+        marginBottom: 5,
+        textDecorationLine: 'underline',
+        padding: 5
       },
       buttonBox: {
         width: '100%',
