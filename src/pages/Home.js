@@ -83,7 +83,7 @@ const styles = StyleSheet.create({
     borderColor: 'grey',
     margin: 6,
     color: "#9c0000",
-    fontSize: 12,
+    fontSize: 15,
     shadowOffset: { // adicionando sombras
       width: 4,
       height: 4
